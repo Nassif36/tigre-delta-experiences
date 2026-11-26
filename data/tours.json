@@ -130,10 +130,9 @@
     "groupPrice": { "minGuests": 5, "price": 100 },
     "images": [
       {
-        "src": "assets/images/boat-on-river-960.webp",
+        "src": "assets/images/lunch.jpeg",
         "srcset": [
-          { "src": "assets/images/boat-on-river-480.webp", "width": 480 },
-          { "src": "assets/images/boat-on-river-960.webp", "width": 960 }
+          { "src": "assets/images/lunch.jpeg", "width": 960 }
         ],
         "width": 960,
         "height": 1280,
@@ -221,11 +220,7 @@
     "priceNote": { "en": "To be agreed", "es": "A arreglar", "pt": "A combinar" },
     "images": [
       {
-        "src": "assets/images/river-islands-960.webp",
-        "srcset": [
-          { "src": "assets/images/river-islands-480.webp", "width": 480 },
-          { "src": "assets/images/river-islands-960.webp", "width": 960 }
-        ],
+        "src": "assets/images/pesca-2.jpeg",
         "width": 960,
         "height": 1280,
         "alt": {
