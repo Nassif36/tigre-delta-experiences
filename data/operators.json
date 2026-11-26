@@ -1,0 +1,19 @@
+[
+  {
+    "id": "operator-01",
+    "published": false,
+    "name": "",
+    "photo": "",
+    "description": {
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "languages": [],
+    "specialties": [],
+    "contact": {
+      "whatsapp": "",
+      "email": ""
+    }
+  }
+]

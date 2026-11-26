@@ -1,0 +1,34 @@
+[
+  {
+    "id": "boat-tours",
+    "name": {
+      "en": "Boat tours",
+      "es": "Paseos en lancha",
+      "pt": "Passeios de barco"
+    }
+  },
+  {
+    "id": "kayak-nature",
+    "name": {
+      "en": "Kayak & nature",
+      "es": "Kayak y naturaleza",
+      "pt": "Caiaque e natureza"
+    }
+  },
+  {
+    "id": "island-experiences",
+    "name": {
+      "en": "Island experiences",
+      "es": "Experiencias isleñas",
+      "pt": "Experiências nas ilhas"
+    }
+  },
+  {
+    "id": "fishing-outdoor",
+    "name": {
+      "en": "Fishing & outdoors",
+      "es": "Pesca y aire libre",
+      "pt": "Pesca e atividades ao ar livre"
+    }
+  }
+]

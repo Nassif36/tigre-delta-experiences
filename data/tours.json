@@ -1,0 +1,255 @@
+[
+  {
+    "id": "one-hour-delta-boat-tour",
+    "slug": "one-hour-delta-boat-tour",
+    "category": "boat-tours",
+    "operatorId": "operator-01",
+    "title": {
+      "en": "Experience 1: One-Hour Delta Boat Tour",
+      "es": "Experiencia 1: paseo de una hora por el Delta",
+      "pt": "Experiência 1: passeio de uma hora pelo Delta"
+    },
+    "shortDescription": {
+      "en": "Explore the rivers of the Tigre Delta and return to Tigre city on a one-hour boat tour.",
+      "es": "Recorre los ríos del Delta de Tigre en un paseo de una hora y vuelve a la ciudad de Tigre.",
+      "pt": "Explore os rios do Delta do Tigre em um passeio de barco de uma hora e retorne à cidade de Tigre."
+    },
+    "description": {
+      "en": "Enjoy a one-hour boat tour through the rivers of the Tigre Delta and return to Tigre city.",
+      "es": "Disfruta de un paseo de una hora por los ríos del Delta de Tigre y regresa a la ciudad de Tigre.",
+      "pt": "Aproveite um passeio de barco de uma hora pelos rios do Delta do Tigre e retorne à cidade de Tigre."
+    },
+    "location": {
+      "en": "Tigre Delta, Argentina",
+      "es": "Delta de Tigre, Argentina",
+      "pt": "Delta do Tigre, Argentina"
+    },
+    "duration": {
+      "en": "1 hour",
+      "es": "1 hora",
+      "pt": "1 hora"
+    },
+    "departureLocation": {
+      "en": "To be arranged",
+      "es": "A coordinar",
+      "pt": "A combinar"
+    },
+    "languages": ["en", "es"],
+    "capacity": 10,
+    "price": 95,
+    "currency": "USD",
+    "priceUnit": "person",
+    "groupPrice": { "minGuests": 5, "price": 75 },
+    "images": [
+      {
+        "src": "assets/images/river-bow-960.webp",
+        "srcset": [
+          { "src": "assets/images/river-bow-480.webp", "width": 480 },
+          { "src": "assets/images/river-bow-960.webp", "width": 960 }
+        ],
+        "width": 960,
+        "height": 1280,
+        "alt": {
+          "en": "The bow of a boat traveling along a leafy Tigre Delta waterway",
+          "es": "La proa de una lancha navegando por un arroyo arbolado del Delta de Tigre",
+          "pt": "A proa de um barco navegando por um canal arborizado do Delta do Tigre"
+        }
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Explore the rivers of the Tigre Delta by boat.",
+        "es": "Recorre en lancha los ríos del Delta de Tigre.",
+        "pt": "Explore de barco os rios do Delta do Tigre."
+      }
+    ],
+    "itinerary": [
+      {
+        "en": "Explore the rivers of the Tigre Delta by boat.",
+        "es": "Recorre en lancha los ríos del Delta de Tigre.",
+        "pt": "Explore de barco os rios do Delta do Tigre."
+      },
+      {
+        "en": "Return to Tigre city.",
+        "es": "Regresa a la ciudad de Tigre.",
+        "pt": "Retorne à cidade de Tigre."
+      }
+    ],
+    "included": [],
+    "excluded": [],
+    "meetingPoint": {
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "cancellationPolicy": {
+      "en": "",
+      "es": "",
+      "pt": ""
+    },
+    "faq": [],
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "delta-boat-ride-island-lunch",
+    "slug": "delta-boat-ride-island-lunch",
+    "category": "boat-tours",
+    "operatorId": "operator-01",
+    "title": {
+      "en": "Experience 2: Boat Ride & Island Lunch",
+      "es": "Experiencia 2: paseo y almuerzo en la isla",
+      "pt": "Experiência 2: passeio e almoço na ilha"
+    },
+    "shortDescription": {
+      "en": "A 30-minute boat ride, lunch and dessert at an island stop, and a return to Tigre city.",
+      "es": "Un paseo de 30 minutos, almuerzo y postre en un parador de la isla, y regreso a la ciudad de Tigre.",
+      "pt": "Um passeio de barco de 30 minutos, almoço e sobremesa em uma parada na ilha e retorno à cidade de Tigre."
+    },
+    "description": {
+      "en": "Take a 30-minute boat ride, enjoy lunch and dessert at an island stop, and return to Tigre city.",
+      "es": "Realiza un paseo de 30 minutos, disfruta de almuerzo y postre en un parador de la isla y regresa a la ciudad de Tigre.",
+      "pt": "Faça um passeio de barco de 30 minutos, desfrute de almoço e sobremesa em uma parada na ilha e retorne à cidade de Tigre."
+    },
+    "location": {
+      "en": "Tigre Delta, Argentina",
+      "es": "Delta de Tigre, Argentina",
+      "pt": "Delta do Tigre, Argentina"
+    },
+    "duration": {
+      "en": "1 hour to 1 hour 20 minutes",
+      "es": "1 hora a 1 hora y 20 minutos",
+      "pt": "1 hora a 1 hora e 20 minutos"
+    },
+    "departureLocation": { "en": "To be arranged", "es": "A coordinar", "pt": "A combinar" },
+    "languages": ["en", "es"],
+    "capacity": 10,
+    "price": 125,
+    "currency": "USD",
+    "priceUnit": "person",
+    "groupPrice": { "minGuests": 5, "price": 100 },
+    "images": [
+      {
+        "src": "assets/images/boat-on-river-960.webp",
+        "srcset": [
+          { "src": "assets/images/boat-on-river-480.webp", "width": 480 },
+          { "src": "assets/images/boat-on-river-960.webp", "width": 960 }
+        ],
+        "width": 960,
+        "height": 1280,
+        "alt": {
+          "en": "A motorboat navigating a river in Tigre",
+          "es": "Una lancha navegando por un río de Tigre",
+          "pt": "Uma lancha navegando em um rio de Tigre"
+        }
+      }
+    ],
+    "highlights": [
+      {
+        "en": "A 30-minute boat ride in the Delta.",
+        "es": "Un paseo de 30 minutos por el Delta.",
+        "pt": "Um passeio de barco de 30 minutos pelo Delta."
+      },
+      {
+        "en": "Lunch and dessert at an island stop.",
+        "es": "Almuerzo y postre en un parador de la isla.",
+        "pt": "Almoço e sobremesa em uma parada na ilha."
+      }
+    ],
+    "itinerary": [
+      {
+        "en": "Take a 30-minute boat ride.",
+        "es": "Realiza un paseo de 30 minutos.",
+        "pt": "Faça um passeio de barco de 30 minutos."
+      },
+      {
+        "en": "Enjoy lunch and dessert at an island stop.",
+        "es": "Disfruta de almuerzo y postre en un parador de la isla.",
+        "pt": "Desfrute de almoço e sobremesa em uma parada na ilha."
+      },
+      {
+        "en": "Return to Tigre city.",
+        "es": "Regresa a la ciudad de Tigre.",
+        "pt": "Retorne à cidade de Tigre."
+      }
+    ],
+    "included": [
+      {
+        "en": "Lunch and dessert at an island stop.",
+        "es": "Almuerzo y postre en un parador de la isla.",
+        "pt": "Almoço e sobremesa em uma parada na ilha."
+      }
+    ],
+    "excluded": [],
+    "meetingPoint": { "en": "", "es": "", "pt": "" },
+    "cancellationPolicy": { "en": "", "es": "", "pt": "" },
+    "faq": [],
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "custom-delta-island-experience",
+    "slug": "custom-delta-island-experience",
+    "category": "boat-tours",
+    "operatorId": "operator-01",
+    "title": {
+      "en": "Personalized Boat & Island Experience",
+      "es": "Experiencia personalizada en lancha y en la isla",
+      "pt": "Experiência personalizada de barco e na ilha"
+    },
+    "shortDescription": {
+      "en": "Tell us what you would like to do on the island and discuss a personalized boat tour.",
+      "es": "Cuéntanos qué te gustaría hacer en la isla y consulta por un paseo en lancha personalizado.",
+      "pt": "Conte o que gostaria de fazer na ilha e converse sobre um passeio de barco personalizado."
+    },
+    "description": {
+      "en": "Write to us and tell us what you would like to do on the island. We’ll discuss the details of your personalized boat tour with you.",
+      "es": "Escríbenos y cuéntanos qué te gustaría hacer en la isla. Conversaremos con vos sobre los detalles de tu paseo en lancha personalizado.",
+      "pt": "Escreva para nós e conte o que você gostaria de fazer na ilha. Conversaremos com você sobre os detalhes do seu passeio de barco personalizado."
+    },
+    "location": {
+      "en": "Tigre Delta, Argentina",
+      "es": "Delta de Tigre, Argentina",
+      "pt": "Delta do Tigre, Argentina"
+    },
+    "duration": { "en": "To be arranged", "es": "A coordinar", "pt": "A combinar" },
+    "departureLocation": { "en": "To be arranged", "es": "A coordinar", "pt": "A combinar" },
+    "languages": ["en", "es"],
+    "capacity": 10,
+    "price": null,
+    "currency": "",
+    "priceNote": { "en": "To be agreed", "es": "A arreglar", "pt": "A combinar" },
+    "images": [
+      {
+        "src": "assets/images/river-islands-960.webp",
+        "srcset": [
+          { "src": "assets/images/river-islands-480.webp", "width": 480 },
+          { "src": "assets/images/river-islands-960.webp", "width": 960 }
+        ],
+        "width": 960,
+        "height": 1280,
+        "alt": {
+          "en": "Travelers on a boat beside the green islands of the Delta",
+          "es": "Viajeros en una lancha junto a las verdes islas del Delta",
+          "pt": "Viajantes em um barco ao lado das ilhas verdes do Delta"
+        }
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Share what you would like to do on the island.",
+        "es": "Cuéntanos qué te gustaría hacer en la isla.",
+        "pt": "Conte o que você gostaria de fazer na ilha."
+      }
+    ],
+    "itinerary": [],
+    "included": [],
+    "excluded": [],
+    "meetingPoint": { "en": "", "es": "", "pt": "" },
+    "cancellationPolicy": { "en": "", "es": "", "pt": "" },
+    "faq": [],
+    "customInquiry": true,
+    "featured": true,
+    "published": true
+  }
+]

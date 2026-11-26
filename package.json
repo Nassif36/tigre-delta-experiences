@@ -1,0 +1,9 @@
+{
+  "name": "tigre-delta-experiences",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "seo": "node scripts/configure-seo.mjs"
+  }
+}
