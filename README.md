@@ -32,7 +32,7 @@ Para tarifas por persona, usa `price`, `currency` y `priceUnit: "person"`. Una t
 
 Si una experiencia tiene `capacity`, el formulario de consulta limita la cantidad de personas a ese máximo.
 
-Para habilitar las consultas, completa `name` y `contact.whatsapp` en el registro de contacto y cambia su `published` a `true`; no se mostrará un perfil público. Introduce el número internacional real, con código de país, como texto; puede llevar `+`, espacios o guiones. Sin un número válido, no se muestra un botón de reserva. Las consultas abren WhatsApp con el nombre de la experiencia; no realizan pagos ni reservas automáticas.
+El responsable de las consultas generales es el registro `operator-01` en `data/operators.json`; debe estar publicado y tener un número válido en `contact.whatsapp`. Introduce el número internacional con código de país como texto; puede llevar `+`, espacios o guiones. No se mostrará un perfil público. Las consultas pueden enviarse sin seleccionar una experiencia; cuando se elige una, el mensaje incluye su nombre. No realizan pagos ni reservas automáticas.
 
 En una experiencia personalizada, `customInquiry: true` adapta el botón y el mensaje de WhatsApp para que el visitante pueda contar qué desea hacer.
 

@@ -14,8 +14,8 @@ export function buildWhatsAppUrl(number, message) {
 }
 
 export function tourInquiry(tour, details = {}) {
-  const title = localize(tour.title);
-  const message = tour.customInquiry === true
+  const title = localize(tour?.title);
+  const message = !tour ? t("whatsapp.generalMessage") : tour.customInquiry === true
     ? t("whatsapp.customMessage", { title })
     : t("whatsapp.tourMessage", { title });
   const lines = [message];
@@ -38,11 +38,13 @@ export function renderContactForm(catalog) {
   const select = document.querySelector("#contact-tour");
   const guests = document.querySelector("#contact-guests");
   const guestsHint = document.querySelector("#contact-guests-hint");
+  const contact = catalog.operators.find((item) => item.id === "operator-01");
   const available = catalog.tours.filter((tour) => {
     const operator = catalog.operators.find((item) => item.id === tour.operatorId);
     return operator && normalizeWhatsAppNumber(operator.contact?.whatsapp);
   });
   const requested = new URLSearchParams(window.location.search).get("tour");
+  let firstRender = true;
 
   function updateCapacity() {
     const tour = available.find((item) => item.slug === select.value);
@@ -53,12 +55,14 @@ export function renderContactForm(catalog) {
   }
 
   function render() {
-    const previous = select.value || requested;
-    select.innerHTML = available.map((tour) => `<option value="${escapeHtml(tour.slug)}">${escapeHtml(localize(tour.title))}</option>`).join("");
+    const previous = firstRender ? requested : select.value;
+    firstRender = false;
+    select.innerHTML = `<option value="">${escapeHtml(t("contact.form.noExperience"))}</option>` +
+      available.map((tour) => `<option value="${escapeHtml(tour.slug)}">${escapeHtml(localize(tour.title))}</option>`).join("");
     if (available.some((tour) => tour.slug === previous)) select.value = previous;
-    fields.disabled = available.length === 0;
+    fields.disabled = !normalizeWhatsAppNumber(contact?.contact?.whatsapp);
     updateCapacity();
-    status.textContent = available.length ? t("contact.form.ready") : t("contact.form.empty");
+    status.textContent = fields.disabled ? t("contact.form.empty") : t("contact.form.ready");
     if (catalog.issues.length) status.textContent += ` ${t("common.configWarning")}`;
   }
 
@@ -69,8 +73,8 @@ export function renderContactForm(catalog) {
       return;
     }
     const tour = available.find((item) => item.slug === select.value);
-    const operator = tour && catalog.operators.find((item) => item.id === tour.operatorId);
-    if (!tour || !operator) {
+    const operator = tour ? catalog.operators.find((item) => item.id === tour.operatorId) : contact;
+    if ((select.value && !tour) || !operator) {
       status.textContent = t("contact.form.invalid");
       status.setAttribute("role", "alert");
       return;
